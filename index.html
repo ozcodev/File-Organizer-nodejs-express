@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Organizer Test</title>
+  </head>
+  <body>
+    <h1>File Organizer Test</h1>
+    <form
+      action="http://localhost:3000/upload"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <label for="files">Select multiple files:</label>
+      <input type="file" name="files" id="files" multiple />
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>
